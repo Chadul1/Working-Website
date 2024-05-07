@@ -1,0 +1,327 @@
+{
+    "animalType":
+    [
+        {
+            "1":"Bird",
+            "2":"Cat",
+            "3":"Dog",
+            "4":"Exotic",
+            "5":"Ferret",
+            "6":"Rabbit"
+        }
+    ],
+
+     "adoptableAnimalsDataArray" : 
+    [
+        {
+            "animalAge": 3,
+            "animalBreed": "Netherland Dwarf",
+            "animalColor":"Brown",
+            "animalDescription":"Radish is a petite ball of energy wrapped in a fluffy brown coat. With her tiny twitching nose and perky ears, she's ready to hop into your heart and home. As a Netherland Dwarf, Radish embodies the charm and friendliness typical of her breed. She's always up for a game of chase or a cuddle session, making her the perfect companion for someone looking for both playfulness and affection in a rabbit. Whether she's zooming around her play area or nuzzling up for a snuggle, Radish is sure to bring joy and warmth to any household lucky enough to welcome her.",
+            "animalGender":"Female",
+            "animalName": "Radish",
+            "animalTraits":"Friendly",
+            "animalType": "Rabbit" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Mixed",
+            "animalColor":"Brown",
+            "animalDescription":"Oregano is a curious feline with a striking brown coat that's as soft as silk. His bright eyes gleam with intelligence as he explores every nook and cranny of his surroundings. With a playful spirit and an insatiable curiosity, Oregano is always on the lookout for his next adventure. Whether he's chasing after toy mice or lounging in a sunny spot by the window, Oregano's zest for life is contagious. He's longing for a forever home where he can continue to satisfy his curiosity and receive all the love and attention he deserves.",
+            "animalGender":"Male",
+            "animalName": "Oregano",
+            "animalTraits":"Curious",
+            "animalType": "Cat" 
+        },
+        {
+            "animalAge": 3,
+            "animalBreed": "Welsh Corgi",
+            "animalColor":"White and Orange",
+            "animalDescription":"Daisy is a bundle of joy wrapped in a coat of white and orange fur, with short legs and a big smile that never fails to brighten your day. As a Welsh Corgi, Daisy is known for his playful nature and boundless energy. He's always ready for a game of fetch or a brisk walk around the neighborhood, making him the perfect companion for an active household. With his friendly disposition and unwavering loyalty, Daisy is sure to become your constant companion and faithful friend for years to come.",
+            "animalGender":"Male",
+            "animalName": "Daisy",
+            "animalTraits":"Active",
+            "animalType": "Dog" 
+        },
+        {
+            "animalAge": 110,
+            "animalBreed": "Tortoise",
+            "animalColor":"Green",
+            "animalDescription":"Ooguay is a venerable sage among tortoises, with a shell adorned in shades of green that reflect his wisdom and experience. Having lived for over a century, Ooguay has seen the world change around him, yet his philosophical nature remains unchanged. He's a creature of quiet contemplation, seeking companions who share his love for deep conversations and profound insights. Whether he's basking in the sun or leisurely exploring his surroundings, Ooguay's presence brings a sense of tranquility and wisdom to any environment.",
+            "animalGender":"Male",
+            "animalName": "Ooguay",
+            "animalTraits":"Philosophical",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge": 2,
+            "animalBreed": "Mixed",
+            "animalColor":"Dark Brown",
+            "animalDescription":"Frank is a goofy bundle of energy with a dark brown coat and mischievous eyes that sparkle with mischief. With his playful antics and boundless enthusiasm, he's always the life of the party, bringing laughter and joy wherever he goes. As a ferret, Frank thrives on interaction and stimulation, whether it's exploring new toys or engaging in a game of hide-and-seek. With his outgoing personality and endless curiosity, Frank is sure to keep you entertained and on your toes.",
+            "animalGender":"Male",
+            "animalName": "Frank",
+            "animalTraits":"Playful",
+            "animalType": "Ferret" 
+        },
+        {
+            "animalAge": 5,
+            "animalBreed": "Cockatiel",
+            "animalColor":"Dark Brown",
+            "animalDescription":"Ruby is an intelligent and elegant bird with sleek dark brown feathers that shimmer in the light. With her keen mind and inquisitive nature, she's always on the lookout for new challenges and opportunities to learn. Whether she's mimicking sounds or solving puzzles, Ruby's intelligence shines through in everything she does. As a cockatiel, she thrives on mental stimulation and social interaction, making her the perfect companion for someone who can appreciate her wit and charm.",
+            "animalGender":"Female",
+            "animalName": "Ruby",
+            "animalTraits":"Intelligent",
+            "animalType": "Bird" 
+        },
+        {
+            "animalAge": 3,
+            "animalBreed": "Parrotlet",
+            "animalColor":"Turqouise",
+            "animalDescription":"Sapphire is a burst of color and energy, with vibrant turquoise feathers that sparkle like precious gems in the sunlight. With her lively personality and outgoing nature, she's the life of the party wherever she goes. Whether she's chirping a cheerful tune or showing off her impressive vocabulary, Sapphire's presence fills the room with joy and excitement. As a parrotlet, she craves attention and interaction, making her the perfect companion for someone who can match her boundless enthusiasm and zest for life.",
+            "animalGender":"Female",
+            "animalName": "Sapphire",
+            "animalTraits":"Lively",
+            "animalType": "Bird" 
+        },
+        {
+            "animalAge": 2,
+            "animalBreed": "Parrotlet",
+            "animalColor":"Green",
+            "animalDescription":"Emerald is a vocal virtuoso with bright green feathers that rival the brilliance of his namesake gemstone. With his melodious chirps and expressive gestures, he's always ready to serenade you with his songs. As a parrotlet, Emerald thrives on musical stimulation and social interaction, making him the perfect companion for someone who appreciates his artistic talents. Whether he's belting out a tune or engaging in playful banter, Emerald's charm and charisma are sure to capture your heart.",
+            "animalGender":"Male",
+            "animalName": "Emerald",
+            "animalTraits":"Vocal",
+            "animalType": "Bird" 
+        },
+        {
+            "animalAge": 5,
+            "animalBreed": "Parrotlet",
+            "animalColor":"Blueish-Grey",
+            "animalDescription":"Peony is a playful and outgoing bird with soft blueish-grey feathers that give him a regal appearance. With his spirited personality and boundless energy, he's always on the lookout for his next adventure. Whether he's showing off his acrobatic skills or engaging in a game of fetch, Peony's enthusiasm is infectious, bringing joy and laughter to everyone around him. As a parrotlet, he craves mental stimulation and social interaction, making him the perfect companion for someone who can keep up with his lively antics.",
+            "animalGender":"Male",
+            "animalName": "Peony",
+            "animalTraits":"Playful",
+            "animalType": "Bird" 
+        },
+        {
+            "animalAge": 8,
+            "animalBreed": "Cockatoo",
+            "animalColor":"White",
+            "animalDescription":"Pearl is an adventurous spirit with a coat of pristine white feathers that shimmer like polished pearls in the sunlight. With his inquisitive nature and insatiable curiosity, he's always on the lookout for new experiences and opportunities for exploration. Whether he's climbing to the highest perch or investigating every nook and cranny of his surroundings, Pearl's zest for life is truly inspiring. As a cockatoo, he craves mental stimulation and physical exercise, making him the perfect companion for someone who can provide him with plenty of space to spread his wings and explore the world around him.",
+            "animalGender":"Male",
+            "animalName": "Pearl",
+            "animalTraits":"Curious",
+            "animalType": "Bird" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Holland Lop",
+            "animalColor":"Whiteish-Grey",
+            "animalDescription":"Mushroom is a soft and fluffy bundle of joy with a coat that's a blend of white and grey, resembling the gentle hues of a misty morning. With her sweet demeanor and affectionate nature, she's the perfect companion for cozy snuggle sessions on lazy afternoons. As a Holland Lop, Mushroom embodies the snuggly traits characteristic of her breed, seeking comfort and companionship in the arms of her beloved family. Whether she's lounging in her favorite spot or hopping around in playful antics, Mushroom's presence brings warmth and happiness to any home lucky enough to welcome her.",
+            "animalGender":"Female",
+            "animalName": "Mushroom",
+            "animalTraits":"Snuggly",
+            "animalType": "Rabbit" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Netherland Dwarf",
+            "animalColor":"White",
+            "animalDescription":"Snowflake is a charming young rabbit with snow-white fur that's as soft as freshly fallen snow. With his playful personality and boundless energy, he's always on the lookout for his next adventure. As a Netherland Dwarf, Snowflake embodies the playful traits typical of his breed, delighting in games of chase and exploration. Whether he's bounding around his play area or cuddled up in his favorite spot, Snowflake's presence brings joy and laughter to those around him. He's eagerly awaiting a loving family to share his zest for life and endless affection.",
+            "animalGender":"Male",
+            "animalName": "Snowflake",
+            "animalTraits":"Playful",
+            "animalType": "Rabbit" 
+        },
+        {
+            "animalAge": 2,
+            "animalBreed": "Holland Lop",
+            "animalColor":"Orange",
+            "animalDescription":"Cheddar is a serene and gentle soul with a coat the color of ripe oranges, radiating warmth and tranquility wherever he goes. With his calm demeanor and laid-back attitude, he's the perfect companion for quiet evenings spent snuggled up together. As a Holland Lop, Cheddar embodies the peaceful traits characteristic of his breed, seeking solace and comfort in the company of his loved ones. Whether he's lounging in a sunbeam or nibbling on his favorite treats, Cheddar's presence brings a sense of serenity and contentment to any home lucky enough to welcome him.",
+            "animalGender":"Male",
+            "animalName": "Cheddar",
+            "animalTraits":"Calm",
+            "animalType": "Rabbit" 
+        },
+        {
+            "animalAge": 2,
+            "animalBreed": "Holland Lop",
+            "animalColor":"Orange",
+            "animalDescription":"Colby is a playful and spirited rabbit with a coat the color of sun-kissed oranges, exuding warmth and vitality in every hop. With his boundless energy and insatiable curiosity, he's always on the lookout for his next adventure. As a Holland Lop, Colby embodies the playful traits typical of his breed, delighting in games of chase and exploration. Whether he's frolicking in the grass or exploring new surroundings, Colby's zest for life is truly infectious. He's eagerly seeking a loving family to share in his joy and excitement, ready to embark on countless adventures together.",
+            "animalGender":"Male",
+            "animalName": "Colby",
+            "animalTraits":"Playful",
+            "animalType": "Rabbit" 
+        },
+        {
+            "animalAge": 4,
+            "animalBreed": "Mixed",
+            "animalColor":"White",
+            "animalDescription":"Zippy is a spirited and vivacious ferret with a coat as white as freshly fallen snow, her eyes gleaming with mischief and playfulness. With her energetic antics and playful demeanor, she's always the life of the party, bringing laughter and joy wherever she goes. Whether she's darting through tunnels or chasing after toys, Zippy's enthusiasm is truly contagious. As a playful ferret, she's seeking a new adventure and a loving family to share in her boundless energy and zest for life.",
+            "animalGender":"Female",
+            "animalName": "Zippy",
+            "animalTraits":"Playful",
+            "animalType": "Ferret" 
+        },
+        {
+            "animalAge": 3,
+            "animalBreed": "Mixed",
+            "animalColor":"Mixed",
+            "animalDescription":"Bandit is a charming and mischievous ferret with a coat as dark as the night sky, his eyes twinkling with curiosity and mischief. With his playful antics and adventurous spirit, he's always on the lookout for his next escapade. Whether he's exploring hidden corners or engaging in playful banter, Bandit's presence brings excitement and laughter to those around him. As a cuddly ferret, he's seeking a partner in crime and a loving family to embark on thrilling adventures with, ready to steal your heart with his irresistible charm.",
+            "animalGender":"Male",
+            "animalName": "Bandit",
+            "animalTraits":"Mischevious",
+            "animalType": "Ferret" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Betta Fish",
+            "animalColor":"Teal, Orange",
+            "animalDescription":"Bubbles is a striking betta fish with scales that shimmer in hues of teal and orange, resembling the dancing colors of a tropical sunset. With his confident demeanor and regal posture, he's the king of his aquatic domain, commanding attention with every graceful movement. As a hardy betta fish, Bubbles is seeking a new office space to dazzle and inspire, ready to captivate onlookers with his beauty and elegance.",
+            "animalGender":"Male",
+            "animalName": "Bubbles",
+            "animalTraits":"Arrogant",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge":1,
+            "animalBreed": "Betta Fish",
+            "animalColor":"Blue",
+            "animalDescription":"Pancake is a serene betta fish with scales the color of a clear blue sky, her graceful movements reminiscent of a gentle breeze. With her calm demeanor and tranquil presence, she's the epitome of grace and elegance, bringing a sense of peace and serenity to her surroundings. As a chill betta fish, Pancake is seeking a tranquil environment where she can relax and unwind, ready to bring a touch of serenity to any home lucky enough to welcome her.",
+            "animalGender":"Female",
+            "animalName": "Pancake",
+            "animalTraits":"Chill",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Lizard",
+            "animalColor":"Green",
+            "animalDescription":"Geico is a laid-back lizard with scales the color of fresh spring leaves, his eyes reflecting a sense of calm and contentment. With his easygoing nature and relaxed demeanor, he's the perfect companion for lazy afternoons spent basking in the warmth of the sun. As a chill lizard, Geico is seeking a new home where he can lounge in comfort and tranquility, ready to bring a sense of peace and relaxation to his new surroundings.",
+            "animalGender":"Male",
+            "animalName": "Geico",
+            "animalTraits":"Chill",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge": 2,
+            "animalBreed": "Snake",
+            "animalColor":"Black",
+            "animalDescription":"Gandolf is a silly and playful snake with sleek black scales that shine like polished obsidian, her tongue flicking out inquisitively as she explores her surroundings. With her curious nature and gentle demeanor, she's the perfect companion for quiet evenings spent curled up together. As a chill noodle, Gandolf is seeking a loving family to share in her gentle companionship, ready to slither into your heart with her playful antics and affectionate nature.",
+            "animalGender":"Female",
+            "animalName": "Gandolf",
+            "animalTraits":"Chill",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Golden Retriever",
+            "animalColor":"Tan",
+            "animalDescription":"Crème Brûlée is a lively and exuberant puppy with a coat the color of rich caramel, his tail wagging with unbridled enthusiasm at the prospect of making new friends. With his playful nature and boundless energy, he's always ready for adventure and excitement. As a Golden Retriever, Crème Brûlée embodies the friendly and sociable traits characteristic of his breed, eagerly seeking companionship and fun wherever he goes. Whether he's romping in the park or cuddled up on the couch, Crème Brûlée's infectious joy and affection are sure to brighten even the gloomiest of days.",
+            "animalGender":"Male",
+            "animalName": "Crème brûlée",
+            "animalTraits":"Playful",
+            "animalType": "Dog" 
+        },
+        {
+            "animalAge": 6,
+            "animalBreed": "Bernese Mountain Dog",
+            "animalColor":"Mixed",
+            "animalDescription":"Smores is a gentle giant with a coat as rich and varied as the colors of a summer sunset, his warm eyes reflecting a lifetime of love and loyalty. With his calm demeanor and easygoing nature, he's the perfect companion for lazy afternoons spent soaking up the sun or leisurely strolls through the countryside. As a Bernese Mountain Dog, Smores embodies the friendly and laid-back traits characteristic of his breed, always eager to make new friends and share his gentle spirit with those around him. Whether he's lounging by the fire or exploring the great outdoors, Smores's presence brings a sense of peace and contentment to any home lucky enough to welcome him.",
+            "animalGender":"Male",
+            "animalName": "Smores",
+            "animalTraits":"Friendly",
+            "animalType": "Dog" 
+        },
+        {
+            "animalAge": 5,
+            "animalBreed": "German Shepherd",
+            "animalColor":"Brown",
+            "animalDescription":"Peanut Butter is a dynamic and athletic dog with a coat the color of rich chestnuts, his intelligent eyes shining with determination and curiosity. With his boundless energy and insatiable thirst for adventure, he's always on the lookout for his next challenge. As a German Shepherd, Peanut Butter embodies the active and loyal traits characteristic of his breed, seeking stimulation and companionship in equal measure. Whether he's running agility courses or embarking on outdoor adventures, Peanut Butter's zest for life is truly infectious. He's eagerly seeking a loving family to share in his passion for exploration and excitement, ready to embark on countless adventures together.",
+            "animalGender":"Male",
+            "animalName": "Peanut Butter",
+            "animalTraits":"Active",
+            "animalType": "Dog" 
+        },
+        {
+            "animalAge": 2,
+            "animalBreed": "Dachshund",
+            "animalColor":"Brown",
+            "animalDescription":"Goofy is a charming and affable dog with a coat the color of warm chestnut, his expressive eyes twinkling with mischief and mirth. With his friendly demeanor and gentle nature, he's always ready to make new friends and share his infectious joy with those around him. As a Dachshund, Goofy embodies the friendly and outgoing traits characteristic of his breed, eagerly seeking companionship and affection wherever he goes. Whether he's romping in the yard or curled up on the couch, Goofy's presence brings warmth and happiness to any home lucky enough to welcome him.",
+            "animalGender":"Male",
+            "animalName": "Goofy",
+            "animalTraits":"Friendly",
+            "animalType": "Dog" 
+        },
+        {
+            "animalAge": 4,
+            "animalBreed": "Mixed",
+            "animalColor":"White",
+            "animalDescription":"Princess is a regal feline with a coat as soft and fluffy as freshly fallen snow, her eyes sparkling with curiosity and wonder. With her adventurous spirit and love for exploration, she's always on the lookout for new lands to conquer and mysteries to unravel. As a mixed breed cat, Princess embodies the independent and curious nature of her lineage, eagerly seeking out hidden nooks and crannies to discover. Whether she's prowling through the garden or lounging in a sunbeam, Princess's presence brings a sense of excitement and intrigue to any home lucky enough to welcome her.",
+            "animalGender":"Female",
+            "animalName": "Princess",
+            "animalTraits":"Adventurous",
+            "animalType": "Cat" 
+        },
+        {
+            "animalAge": 5,
+            "animalBreed": "Mixed",
+            "animalColor":"Grey",
+            "animalDescription":"Shadow is a gentle soul with a coat the color of a stormy sky, his eyes warm and inviting as he gazes up at you with affection and trust. With his cuddly nature and love for companionship, he's always seeking new friends to snuggle up with and share in life's simple pleasures. As a mixed breed cat, Shadow embodies the loyal and affectionate traits characteristic of his lineage, eager to form deep bonds with those around him. Whether he's curled up on the couch or nestled in your lap, Shadow's presence brings warmth and comfort to any home lucky enough to welcome him.",
+            "animalGender":"Male",
+            "animalName": "Shadow",
+            "animalTraits":"Cuddly",
+            "animalType": "Cat" 
+        },
+        {
+            "animalAge": 5,
+            "animalBreed": "Mixed",
+            "animalColor":"Calico",
+            "animalDescription":"Daisy is a relaxed and easygoing feline with a coat adorned in the soft pastel hues of a summer sunset, her eyes reflecting the tranquil beauty of a sun-dappled meadow. With her laid-back demeanor and gentle nature, she's the perfect companion for lazy afternoons spent basking in the warmth of the sun. As a mixed breed cat, Daisy embodies the calm and serene traits characteristic of her lineage, seeking solace and comfort in the simple joys of life. Whether she's lounging in a patch of sunlight or curled up by the window, Daisy's presence brings a sense of peace and tranquility to any home lucky enough to welcome her.",
+            "animalGender":"Female",
+            "animalName": "Daisy",
+            "animalTraits":"Relaxed",
+            "animalType": "Cat" 
+        },
+        {
+            "animalAge": 1,
+            "animalBreed": "Mixed",
+            "animalColor":"Orange",
+            "animalDescription":"Cheeto is a playful and spirited kitten with a coat as vibrant and fiery as the setting sun, his eyes gleaming with mischief and curiosity. With his boundless energy and insatiable curiosity, he's always on the lookout for his next adventure. As a mixed breed cat, Cheeto embodies the playful and adventurous traits characteristic of his lineage, delighting in games of chase and exploration. Whether he's bounding through the house or pouncing on his favorite toys, Cheeto's zest for life is truly infectious. He's eagerly seeking a loving family to share in his excitement and joy, ready to embark on countless adventures together.",
+            "animalGender":"Male",
+            "animalName": "Cheeto",
+            "animalTraits":"Playful",
+            "animalType": "Cat" 
+        },
+        {
+            "animalAge": 3,
+            "animalBreed": "Hedgehog",
+            "animalColor":"Tan",
+            "animalDescription":"Spike is a playful and spirited hedgehog with quills the color of golden sand, his eyes twinkling with mischief and curiosity. With his adventurous spirit and love for exploration, he's always on the lookout for new sights and smells to discover. As a hedgehog, Spike embodies the curious and independent nature of his species, eagerly seeking out hidden treasures and secret hideaways. Whether he's burrowing in his bedding or exploring his play area, Spike's presence brings a sense of joy and wonder to any home lucky enough to welcome him.",
+            "animalGender":"Male",
+            "animalName": "Spike",
+            "animalTraits":"Playful",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge": 4,
+            "animalBreed": "Capybara",
+            "animalColor":"Tan",
+            "animalDescription":"The presence of Captain, the capybara, at the humane society may puzzle some, but his playful demeanor and sociable nature make him a delightful addition to the shelter. While it may be unconventional to find a capybara in such a setting, Captain's presence brings joy and fascination to all who encounter him. Despite the mystery surrounding his arrival, one cannot deny the warmth and charm he exudes, making him a beloved figure among shelter visitors.",
+            "animalGender":"Male",
+            "animalName": "Captain",
+            "animalTraits":"Playful",
+            "animalType": "Exotic" 
+        },
+        {
+            "animalAge": "13",
+            "animalBreed": "American Shorthair",
+            "animalColor":"Black",
+            "animalDescription":"Meow",
+            "animalGender":"Male",
+            "animalName": "Marcus",
+            "animalTraits":"Hungry",
+            "animalType": "Cat" 
+        }
+    ]
+}

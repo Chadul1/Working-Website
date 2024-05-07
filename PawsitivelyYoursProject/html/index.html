@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pawsitively Yours</title>
+  <!-- JQuery  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+  <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- The great gradient styles in here -->
+    <link href="../css/index.css" rel="stylesheet">
+
+  <!-- JS scripts -->
+  <script src="../js/navbar.js"></script>
+  <link rel="icon" type="image/x-icon" href="../media/brand/logo1.png">
+  <script defer type="module" src="../js/featuredAnimal.mjs"></script>
+
+</head>
+<body>
+
+    <!-- Company Banner -->
+    <span class="d-md-block d-none p-3 text-center" id="bannerContainer">
+        <img src="../media/brand/logobanner1.png" alt="Pawsitively Yours Logo" class="img-fluid " style="max-width: 50%;">
+    </span>
+  
+      <!-- Standard info -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="text-center">Welcome to Pawsitively Yours!</h2>
+          <p class="lead fs-4">Pawsitively Yours is not just a shelter, it's a haven for our furry friends.</p>
+          <p class="fs-5">Founded on the principles of compassion and care, our mission is to provide a second chance 
+            for animals in need, offering them love, safety, and the hope of finding forever homes. 
+            With a dedicated team of volunteers and staff, we work tirelessly to nurture, rehabilitate, 
+            and advocate for animals of all shapes and sizes. From rescue and rehabilitation to adoption 
+            and beyond, each pawprint we touch represents a story of resilience, hope, and unconditional 
+            love. Join us in our journey to make the world a better place, one paw at a time.</p>
+          <a href="#" class="btn btn-primary pinkGradientButton">Learn More</a>
+        </div>
+
+        <!-- Featured Animal -->
+        <aside class="col-md-4">
+          <h2>Featured Animal</h2>
+          <h4 id="featuredAnimalName">[Featured animal name]</h4>
+          <img id="featuredAnimalImg" src="../media/animals/cat/cat6.jpg" alt="Featured Animal" class="img-fluid mb-3">
+          <p id="featuredAnimalDescription">Looks like the featured animal isn't Loading Try Refreshing</p>
+          <div id="learnMoreButtonDiv"></div>
+        </aside>
+      </div>
+    </div>
+  
+    <!-- Business Hours -->
+    <div class="py-4 mt-4 pinkGradient">
+      <div class="container">
+        <h2 class="text-center text-white">Business Hours</h2>
+        <p class="text-center text-white">Monday - Friday: 9:00 AM - 5:00 PM</p>
+        <p class="text-center text-white">Saturday - Sunday: Closed</p>
+      </div>
+    </div>
+
+    <!-- Adoption Section -->
+<div class="container mt-4">
+    <h2 class="text-center">Adopt a Pet</h2>
+    <p class="lead text-center fs-4">Find your perfect furry friend today!</p>
+    <div class="row gx-0">
+        <div class="col-md-6">
+            <img src="../media/promo/adoption.png" alt="Adoptable Pet" class="img-fluid mb-3">
+        </div>
+        <div class="col-md-6">
+            <p class="fs-5 mb-4">At Pawsitively Yours, we believe that every pet deserves a loving home. Whether you're looking for a playful pup to join your family adventures or a cuddly companion to keep you company, we have a diverse range of lovable animals eagerly awaiting adoption.</p>
+            <p class="fs-5 mb-4">Our adoption process is simple and designed to ensure the best match between pets and their new families. From initial meet-and-greets to post-adoption support, we're here to guide you every step of the way.</p>
+            <p class="fs-5 mb-4">Ready to open your heart and home to a new furry friend? Browse our available pets today and take the first step towards a lifetime of love and companionship.</p>
+            <a href="../html/animalAdoptionPage.html" class="btn btn-primary pinkGradientButton">View Available Pets</a>
+        </div>
+    </div>
+</div>
+
+<!-- Extra Services Section -->
+<div class="container mt-4">
+    <h2 class="text-center">Extra Services</h2>
+    <div class="row mt-4">
+      <!-- Pet Neutering -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pet Neutering</h5>
+            <p class="card-text">Ensure your pet's health and prevent unwanted litters with our professional pet neutering services. 
+                Our experienced veterinarians provide safe and compassionate care for your furry companions.</p>
+                <a href="#" class="btn btn-primary pinkGradientButton">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pet Vaccines -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pet Vaccines</h5>
+            <p class="card-text">Protect your pet from common diseases and illnesses with our comprehensive pet vaccination 
+                programs. From puppy shots to annual boosters, we offer a range of vaccines to keep your pet healthy and happy.</p>
+                <a href="#" class="btn btn-primary pinkGradientButton">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Pet Cremation -->
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pet Cremation</h5>
+            <p class="card-text">Honour the memory of your beloved pet with our dignified pet cremation services. 
+                Our compassionate team ensures a respectful and personalized farewell for your cherished companion.</p>
+                <a href="#" class="btn btn-primary pinkGradientButton">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contact -->
+  <div class="py-4 mt-4 pinkGradient">
+    <div class="container">
+      <h2 class="text-center text-white">Contact Us</h2>
+      <p class="text-center text-white">123 Central Street Eau Claire, Wisconsin</p>
+      <p class="text-center text-white">(123) 456-PAWS</p>
+      <p class="text-center text-white">contactus@pawsyours.com</p>
+    </div>
+  </div>
+
+  </body>
+  </html>

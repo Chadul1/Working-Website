@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How We Help</title>
+    <!-- relevant Css  -->
+    <link href="../css/donationPage.css" rel="stylesheet">
+
+     <!-- jQuery Link -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+     <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="../css/index.css" rel="stylesheet">
+
+     <!-- JS scripts -->
+    <script src="../js/navbar.js"></script>
+    <script defer src="../js/formValidation.js"></script>
+    <link rel="icon" type="image/x-icon" href="../media/brand/Branding/logo1.png">
+
+</head>
+<body>
+
+<div class="row p-2 border border-bottom-0 m-3">
+    <h1 class="text-center mb-5 display-1">Pet supplies donation drives.</h1>
+    <div class="col-md-6">
+        <p>
+            Attention all pet lovers! Pawsitively Yours hosts pet supplies donation drives nearly every month of the year,
+            and we need your help to make them a success! We believe that every pet deserves love, care, 
+            and essential supplies to thrive. From food and toys to bedding and grooming supplies, 
+            every donation makes a difference in the lives of animals in need. 
+            <br><br>  Whether you have extra pet supplies lying around or want to purchase something new to donate, 
+            your generosity will go a long way in supporting local shelters and rescue organizations. 
+            Join us in giving back to our furry friends and making a pawsitive impact in our community.
+            Donate today and show your support for animals in need!
+        </p>
+
+        <h3 class="text-center mb-4 mt-4">Donate Here!</h3>
+        <center class="mb-4 mt-4">
+            <button class="center btn btn-lg pinkGradientButton" data-bs-toggle="modal" data-bs-target="#reg-modal">Donate!</button>
+        </center>
+        <div class="row p-2">
+            <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!-- the header of the modal -->
+                            <h5 class="model-title" id="modal-title">Donate Now!</h5>
+                            <!-- button that closes the modal  -->
+                            <Button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></Button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                <!-- Space that links to a Lego donation Form. needs JS validation + popup for submittal. "Meaning being the Minis" drive. -->
+                                <div class="container mt-5 border rounded border-dark p-4" id="donationForm">
+                                    <h3>Donation Form</h3>
+                                    <form class="form-group">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <!-- Name  -->
+                                                <label for="name" class="form-label">Full Name:</label>
+                                                <input type="text" class="form-control" id="name" minlength="3" required>
+
+                                                <!-- Email  -->
+                                                <label for="email" class="form-label">Email:</label>
+                                                <input type="email" class="form-control" id="email" required>
+                                                <!-- Where the sender wants to send their package  -->
+                                                <label for="phoneNumItem">Phone Number</label>     
+                                                <input type="tel" id="phoneNumItem" class="form-control" placeholder="1-123-456-7890" maxlength="14" required>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="row">
+                                            <div class="col-md-12"> 
+                                            <label for="additional">Additional Details/Notes</label><br>
+                                            <textarea id="additional" class="form-control" name="additional" rows="4" cols="50"></textarea><br><br>
+                                            </div>  
+                                        </div>
+                                        <input type="submit" id="submit" value="Submit Application" class="btn btn-lg pinkGradientButton" id="applicationSubmit"><br><br>
+                                    </form>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6"><img class="img-fluid rounded" id="donationPhoto" src="../media/donation/Pet supplies.jpg" alt="A phot of a wall of pet supplies."></div>
+</div>
+
+
+    <div class="row p-2 border border-bottom-0 mb-3 m-3">
+            <h1 class="text-center display-1"> Where does it all go?</h1>
+                <p class="text-center">
+                    Our mission is to give each pet a loving owner who can take care of them the best they can! <br>
+                    Driven by this mission, we offer many services and opportunities to pets who wouldn't have that those opportunities normally. <br>
+                    Through supply drives and animal aid. We make sure that our communities are full of happy and healthy pets. We understand their importance in many people's lives. 
+                    <br> So please consider donating what you can to make sure than our furry friends can be properly and responsibly cared for.
+                </p>
+        </div>
+
+        <div class="row p-2 border border-bottom-0 mb-3 m-3">
+            <h4 class="text-center display-1">Free Clinic Days.</h4>
+            <div class="col-md-6">
+                <p>
+                    Looking for affordable and compassionate care for your furry friends? Look no further!
+                    Pawsitively Yours is excited to announce our free walk-in clinic spay/neuter days.
+                    We understand the importance of responsible pet ownership, and we're committed to making it easier for everyone.
+                    Our experienced veterinarians and caring staff are dedicated to providing high-quality care in a stress-free environment.
+                    <br><br> No appointments needed—just walk in and let us take care of the rest. Help control the pet population while ensuring the health and happiness of your pets.
+                    Join us on our spay/neuter days and make a pawsitive difference in your pet's life and the community!
+                    <br><br> Call us to get more details at <a href="">(123) 456-PAWS</a>!
+                </p>
+            </div>
+            <div class="col-md-6"><img class="img-fluid rounded" id="donationPhoto" src="../media/donation/rabbits-clinic.jpg" alt="A photo of a heroic rabbit in a vet's arms."></div>
+       
+        </div>
+
+        <div class="row p-2 border border-bottom-0 mb-3 m-3">
+            <h4 class="text-center display-1">Animal Therapy</h4>
+            <div class="col-md-6">
+                <p>
+                    Introducing a heartwarming initiative by Pawsitively Yours—our Elderly and Hospital Animal Therapy program! 
+                    We understand the healing power that animals can bring to people in challenging situations, 
+                    and we're committed to spreading joy and comfort through our therapy animals. 
+                    Our trained and certified therapy teams visit elderly care facilities and hospitals to provide companionship, 
+                    emotional support, and unconditional love to patients and residents. 
+                    <br><br>
+                    Whether it's a gentle nuzzle from a dog or the soothing purr of a cat, our therapy animals have a special way of brightening spirits and lifting moods. 
+                    Help those in need to experience the transformative power of animal-assisted therapy.
+                    Let us bring smiles, warmth, and healing to those who need it most.
+                    Contact us today at <a href="">(123) 456-PAWS</a> to learn more about our Elderly and Hospital Animal Therapy program and how you can get involved!
+                </p>
+            </div>
+            <div class="col-md-6"><img class="img-fluid rounded" id="donationPhoto" src="../media/donation/Pet Therapy.jpg" alt="A photo of a dog showing emotional support for an elderly woman."></div>
+        </div>
+
+        <div class="row p-2 border border-bottom-0 mb-3 m-3">
+            <h4 class="text-center display-1">The Helping Paw Initiative!</h4>
+            <div class="col-md-6">
+                <p>
+                    We believe that every pet deserves a loving place to sleep and proper care, regardless of their owner's circumstances. 
+                    That's why we're proud to introduce The Helping Paw Initiative. 
+                    We recognize the unique bond between homeless individuals and their pets and understand the challenges they face in providing for their furry companions. 
+                    Our program aims to support these individuals by offering essential pet supplies, veterinary care, and resources to help them care for their pets.
+                    From nutritious food and warm bedding to medical treatments and vaccinations, we're here to lend a helping hand. 
+                    Together, we can make a lend a paw in the lives of homeless people and their beloved pets, providing them with the support they need to stay together and thrive. 
+                    Join us in our mission to create a brighter future for pets and their owners in need.
+                    Donate, volunteer, or spread the word about the Helping Paw Initiative and help those in need in your communities!
+                </p>
+            </div>
+            <div class="col-md-6"><img class="img-fluid rounded" id="donationPhoto" src="../media/donation/homeless kitty.jpg" alt="A homeless man holding a kitty cat."></div>
+        </div>
+
+        <div class="row p-2 border border-bottom-0 mb-3 m-3">
+            <h4 class="text-center display-1">Spending on Charity!</h4>
+            <div class="col-md-6">
+                <p>
+                    A portion of our proceeds goes directly to charitable organizations like the Humane Society and other animal welfare groups that work tirelessly to rescue, rehabilitate, and rehome animals in need.
+                    By supporting our services, you're contributing to life-saving efforts, providing essential care, and advocating for the rights and welfare of all animals. Together,
+                    we can make a difference and create a world where every animal is treated with love, compassion, and respect.
+                    
+                </p>
+                <center class="mb-4 mt-4">
+                    <button class="center btn btn-lg pinkGradientButton" data-bs-toggle="modal" data-bs-target="#reg-modal">Donate!</button>
+                </center>
+            </div>
+            <div class="col-md-6"><img class="img-fluid rounded" id="donationPhoto" src="../media/donation/donation parrot.jpg" alt="A Photo of a Green parrot eating out of a volunteer's hand."></div>
+        </div>
+
+        <!-- contact -->
+    <div class="py-4 mt-4 pinkGradient rounded-top">
+            <div class="container">
+            <h2 class="text-center text-white">Contact Us</h2>
+            <p class="text-center text-white">123 Central Street Eau Claire, Wisconsin</p>
+            <p class="text-center text-white">(123) 456-PAWS</p>
+            <p class="text-center text-white">contactus@pawsyours.com</p>
+            </div>
+    </div>
+</div>
+</body>
+</html>

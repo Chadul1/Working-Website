@@ -1,0 +1,13 @@
+
+p {
+    font-size: 1.5rem;
+}
+
+p a {
+    text-decoration: none;
+    color: rgb(255,176,189);
+}
+
+p a:hover {
+    color: rgb(254,194,160);
+}

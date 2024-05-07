@@ -1,0 +1,96 @@
+
+form
+{
+    margin-bottom:10%;
+}
+
+.row
+{
+    margin: 2%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    padding-top: 2dvh;
+    color: black;
+    width:100%;
+}
+
+.social
+{
+    width: 30px;
+    padding: 5%;
+}
+
+#socialMediaContainer 
+{
+    margin-top: 1%;
+    background-image: linear-gradient(to right, rgb(255,176,189), rgb(254,194,160));
+    border-color: rgb(255,176,189);
+    padding: 3%;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+#contactPageContainer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+}
+
+#contactInformationContainer
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    align-items: center;
+    
+}
+
+#feedbackInformationContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#feedbackInformationImage
+{
+    border-radius: 40px;
+    max-width: 500px;
+    max-height: 500px;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+
+#careerInformationContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+#careerInformationImage
+{
+    display: flex;
+    border-radius: 40px;;
+    max-width: 500px;
+    max-height: 500px;
+    width: 80%;
+    margin-bottom: 2%;
+}
+

@@ -1,0 +1,123 @@
+/* NOTE: Bootstrap styling is being applied - look in html element classLists for styling applied directly */
+.active
+{
+    display: flex;
+}
+
+.hidden
+{
+    display: none !important;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+    max-width: 100%;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+    color: black;
+    width:100%;
+}
+
+h2{
+    justify-content: center;
+}
+
+.card
+{
+    display: flex;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.card-button, #applyFiltersButton
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-image: linear-gradient(to right, rgb(255,176,189), rgb(254,194,160));
+    border-color: rgb(255,176,189);
+    color: black;
+    border-radius: 20px;
+    margin:10px;
+    padding-left:10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.card-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#headerRow
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#filterTitle
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#selectAnimalTypeForm
+{
+    margin-bottom: 5%;
+}
+
+#selectAnimalGenderForm
+{
+    margin-bottom: 5%;
+}
+
+#filterContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50% !important;
+}
